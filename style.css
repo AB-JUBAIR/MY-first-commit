@@ -1,0 +1,21 @@
+nav>ul>li
+{
+    display: inline;
+    margin: 30px;
+    padding: 10px;
+    
+    background-color: aquamarine;
+font-size: 15px;
+justify-content: center;
+border-radius: 5px;
+}
+li>a
+{
+    text-decoration: none;
+    color: orange;
+}
+footer
+{
+    margin-top: 90%;
+    text-align: center;
+}

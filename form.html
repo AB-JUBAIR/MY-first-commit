@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            margin: 10px;
+            display: block;
+        
+        }
+        .btn input{
+            background-color: violet;
+            font-family: 'Times New Roman';
+            font-weight: bold;
+            margin: 10px 100px;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.353);
+            transition: 0.2s;
+
+        }
+        .btn input:active
+        {
+            transition: 0.2s;
+            color: white;
+            scale: 1.5;
+        }
+        .btn input:hover
+        {
+background-color: blueviolet;
+scale: 0.95;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Please Fill up the form</h2>
+    </header>
+    <form action="">
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="email">
+            Your Email:
+            <input type="email" id="email" placeholder="Your email">
+        </label>
+        <label for="phone">
+            Your  Mobile: <input type="number" id="phone" placeholder="Phone Number">
+        </label>
+        <fieldset>
+            <legend>Pick one pitha</legend>
+            <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy"> chitoy
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa"> vapa
+
+            </label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Special Vorta</legend>
+            <label for="tomato">
+                <input type="checkbox" name="Vorta" id="tomato"> Tomato
+            </label>
+            <label for="alo">
+                <input type="checkbox" name="Vorta" id="tomato">Alo 
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special instraction</legend>
+            <textarea name="" id="" cols="40" rows="20"></textarea>
+
+        </fieldset>
+        <fieldset class="btn"> 
+            <input type="reset" value="Reset Now">
+            <input type="submit" value="Submit Now">
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
